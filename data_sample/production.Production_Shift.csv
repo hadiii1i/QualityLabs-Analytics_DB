@@ -1,0 +1,10 @@
+﻿shift_name,shift_date,total_output,total_defect
+Day,9/1/2025,12000,85
+Evening,9/1/2025,11500,102
+Night,9/1/2025,9000,140
+Day,9/2/2025,12500,70
+Evening,9/2/2025,11800,95
+Night,9/2/2025,9200,160
+Day,9/3/2025,13000,60
+Evening,9/3/2025,12100,88
+Night,9/3/2025,9500,150

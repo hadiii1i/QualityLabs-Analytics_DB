@@ -1,0 +1,9 @@
+﻿equipment_id,inspection_date,inspection_type,inspected_qty,accepted_qty,rejected_qty,shift_id
+1,2025-09-01,In-Process,500,485,15,1
+1,2025-09-01,Final,600,590,10,2
+2,2025-09-01,In-Process,450,430,20,1
+6,2025-09-02,Lab Analysis,120,118,2,4
+4,2025-09-02,Sterility Test,60,58,2,5
+1,2025-09-03,In-Process,520,500,20,7
+2,2025-09-03,Final,480,470,10,8
+6,2025-09-03,Lab Analysis,130,127,3,9

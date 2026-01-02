@@ -1,0 +1,11 @@
+﻿equipment_name,equipment_code,equipment_type,criticality,department,commissioning_date
+Tablet Press Fette 3090,TP-3090,Production,High,Production,2019-06-15
+Capsule Filler Bosch GKF,CF-GKF,Production,High,Production,2020-03-10
+Blister Line Uhlmann,BL-UHM,Production,Medium,Production,2018-11-22
+Autoclave Steris,AC-STR,Lab,High,QC,2017-09-01
+Analytical Balance Sartorius,AB-SRT,Lab,Medium,QC,2021-01-05
+HPLC Agilent 1260,HPLC-1260,Lab,High,QC,2020-07-18
+Coating Pan CP-01,CP-01,Production,Medium,Production,2016-04-30
+Metal Detector MD-02,MD-02,Production,High,Production,2019-12-12
+Hardness Tester HT-05,HT-05,Lab,Low,QC,2022-02-14
+Friability Tester FT-03,FT-03,Lab,Low,QC,2021-08-20

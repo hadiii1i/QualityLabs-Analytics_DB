@@ -1,0 +1,6 @@
+﻿equipment_id,last_calibration_date,calibration_interval_days,calibration_result
+5,2025-06-01,180,Pass
+6,2025-05-15,180,Pass
+1,2025-03-10,365,Pass
+4,2024-12-01,365,Fail
+8,2025-07-01,180,Pass
