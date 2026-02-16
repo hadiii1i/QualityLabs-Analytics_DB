@@ -106,8 +106,6 @@ Clear Grain > Flexibility
 
 ## Constraints
 
-- ❌ **No direct SQL code** in design process
-- ✅ **All changes via GUI tools** (DBeaver, pgAdmin, SSMS)
 - 🎯 **Focus on analytics**, not workflow or automation
 - ⚠️ **Explicitly warn** when design decisions are hard to reverse
 
