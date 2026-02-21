@@ -1,0 +1,71 @@
+	# Pharmaceutical QMS OLAP Database
+
+## Description
+Star Schema data warehouse for pharmaceutical Quality Management System (QMS) analytics.
+
+## Database Structure
+- **Schema:** `qms`
+- **Design Pattern:** Star Schema
+- **Dimensions:** 6 tables (Time, Organization, Product, Equipment, Process Step, Root Cause)
+- **Facts:** 1 table (Deviation) - more to come
+
+## Technology Stack
+- **Database:** PostgreSQL 12+
+- **IDE:** JetBrains DataGrip
+- **Design:** Dimensional Modeling (Kimball Methodology)
+
+## Project Structure
+```
+├── schemas/           # DDL files (CREATE TABLE statements)
+├── queries/           # Analytical queries
+├── data/              # Sample data insertion scripts
+└── docs/              # Documentation
+```
+
+## Setup Instructions
+
+### 1. Create Database
+```sql
+CREATE DATABASE pharma_qms;
+```
+
+### 2. Run Schema Creation
+```bash
+psql -U postgres -d pharma_qms -f schemas/qms_complete_schema.sql
+```
+
+### 3. Verify Installation
+```sql
+SELECT COUNT(*) FROM information_schema.tables 
+WHERE table_schema = 'qms';
+-- Should return: 7 tables
+```
+
+## Grain Definitions
+
+### Fact Tables
+- **fact_deviation:** One row per quality deviation event
+
+### Dimension Tables
+- **dim_time:** One row per calendar day
+- **dim_organization:** One row per org unit version (SCD Type 2)
+- **dim_product:** One row per product formulation version (SCD Type 2)
+- **dim_equipment:** One row per equipment configuration version (SCD Type 2)
+- **dim_process_step:** One row per process step configuration version (SCD Type 2)
+- **dim_root_cause:** One row per root cause classification version (SCD Type 2)
+
+## Future Development
+- [ ] fact_ncr (Non-Conformance Reports)
+- [ ] fact_capa (Corrective/Preventive Actions)
+- [ ] fact_audit (Audit findings)
+- [ ] fact_batch_event (Batch process events)
+- [ ] Sample data insertion scripts
+- [ ] Analytical query examples
+- [ ] ER Diagram
+
+## Author
+Hadi Yabari
+
+## License
+Private - Internal Use Only
+```
