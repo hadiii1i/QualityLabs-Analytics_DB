@@ -2,11 +2,6 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$PROJECT_DIR$/data/seed_data.sql" value="6228169b-151e-49ce-baba-9c78d63f4ea6" />
-    <file url="file://$PROJECT_DIR$/queries/Query.sql" value="6228169b-151e-49ce-baba-9c78d63f4ea6" />
-    <file url="file://$PROJECT_DIR$/queries/Query_1.sql" value="6228169b-151e-49ce-baba-9c78d63f4ea6" />
-    <file url="file://$PROJECT_DIR$/queries/Query_2.sql" value="6228169b-151e-49ce-baba-9c78d63f4ea6" />
-    <file url="file://$PROJECT_DIR$/queries/Query_3.sql" value="6228169b-151e-49ce-baba-9c78d63f4ea6" />
-    <file url="file://$PROJECT_DIR$/queries/Query_4.sql" value="6228169b-151e-49ce-baba-9c78d63f4ea6" />
     <file url="file://$PROJECT_DIR$/schemas/Query.sql" value="6228169b-151e-49ce-baba-9c78d63f4ea6" />
   </component>
 </project>
