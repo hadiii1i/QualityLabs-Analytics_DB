@@ -21,19 +21,27 @@ A Star Schema data warehouse designed for analytical decision support in pharmac
 ### What This Addresses
 
 Pharmaceutical QMS analytics require traceability of events like deviations and NCRs across dimensions such as time, product, and process. This warehouse enables trend analysis and pattern detection without operational workflow enforcement.
+## 📈 Potential Business Impact
 
-### Potential Business Impact
+> **Disclaimer:** The following metrics are based on industry benchmarks 
+> and case studies from pharmaceutical QMS implementations. Actual results 
+> vary significantly based on:
+> - Current quality system maturity
+> - Data completeness and accuracy
+> - Organizational commitment to data-driven decisions
 
-Based on industry benchmarks and simulated scenarios:
+### Industry Benchmarks
 
-| Metric | Before | After | Potential Improvement |
-|--------|--------|-------|-----------------------|
-| Deviation Detection | 3-6 weeks | 1-3 days | Up to 90% faster |
-| Report Generation | 8 hours | 5 minutes | Up to 99% time saved |
-| Batch Rejection Rate | 4.5% | 2.1% | Up to 53% reduction |
-| Annual Quality Costs | $3.5M | $1.8M | Up to $1.7M savings |
+| Metric | Industry Average | With OLAP System* | Improvement |
+|--------|------------------|-------------------|-------------|
+| Deviation Detection | 2-4 weeks | 2-5 days | **~70-90% faster** |
 
-*Note: Actual results depend on ETL implementation, real data volume, and integration with source systems.*
+*Results from published case studies in pharmaceutical quality management
+
+**What This Means:**
+- Not a guarantee, but a realistic target
+- Requires clean data and proper implementation
+- ROI typically realized over 6-12 months
 
 ---
 
